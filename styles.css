@@ -1,0 +1,127 @@
+/* ----------------
+      Common Styles 
+------------------*/
+
+.btn_common {
+    background-color: #289bde;
+    padding: 8px 30px;
+}
+
+.btn_text {
+    color: #289bde;
+}
+
+.btn_border {
+    border-color: #289bde !important;
+}
+
+/* ----------------
+        Header Styles 
+  ------------------ */
+
+.carousel_header {
+    background-color: #000;
+}
+
+.carousel_header img {
+    opacity: 0.5;
+}
+
+.carousel_img {
+    height: 100%;
+}
+
+.carousel_content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-65%);
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
+.carousel_content h1 {
+    font-size: clamp(1.7rem, 4vw, 4rem);
+}
+
+/* --------------------
+        About Style
+  ----------------------- */
+.about_text {
+    background-color: #f4fafd;
+}
+
+/* --------------------
+        Subscribe Style
+  ----------------------- */
+
+.subscribe {
+    height: 350px;
+    background-color: #289bde;
+}
+
+.regiter_btn {
+    color: #289bde;
+    height: 50px;
+    width: 180px;
+}
+
+/* ----------------
+        Review Style
+  ------------------ */
+
+.fa-star {
+    color: #fbbf24;
+}
+
+.review_slider_icon_left {
+    background-color: #e5f6ff;
+    padding: 6px 12px;
+    color: #289bde;
+    cursor: pointer;
+}
+
+.review_slider_icon_right {
+    background-color: #289bde;
+    padding: 6px 12px;
+    color: #e5f6ff;
+    cursor: pointer;
+}
+
+/* ------------------
+        Companies Style
+  -------------------- */
+
+.companies_section img {
+    width: 100px;
+}
+
+/* ----------------
+        Footer Style
+  ------------------ */
+
+footer {
+    background-color: #161616;
+}
+
+footer a {
+    background-color: #3d3d3d98;
+    height: 35px;
+    width: 35px;
+}
+
+/* -----------------
+        Media Queries
+  --------------------*/
+
+@media only screen and (max-width: 576px) {
+    .header_btn {
+        font-size: 10px;
+    }
+
+    .carousen_content {
+        transform: translateY(-80%);
+    }
+
+    .carousel .carousel-item {
+        height: 50vh;
+    }
+}
